@@ -3,6 +3,7 @@
 <!-- Vorlage: J. David Eisenberg: "SVG Essentials", O'Reilly, 2002 -->
 <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" xmlns:xlink="http://www.w3.org/1999/xlink">
 
+<def>
 <g id="katze">
   <title>Eine Miezekatze</title>
   <desc>Eine Katze, gezeichnet mit Strichen</desc>
@@ -47,5 +48,7 @@
 
    
 </g>
+</def>
+<use xlink:href="#katze" x="30"></use>
 
 </svg>

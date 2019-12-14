@@ -35,7 +35,7 @@
 		y="230"
 		opacity="0"
 	>
-		<animate xlink:href="#katze" 	attributeName="opacity" from="1" to="0" begin="7s"/>
+		<animate xlink:href="#katze" attributeName="opacity" from="1" to="0" begin="7s"/>
 	</image>
 
 <use x="350" y="0" xlink:href="#monitor" />
