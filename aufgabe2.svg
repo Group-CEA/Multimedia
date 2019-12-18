@@ -31,7 +31,7 @@
 	<image 
 		id="katze"
 		xlink:href="katze.svg"
-		x="100"
+		x="80"
 		y="230"
 		opacity="0"
 	>
@@ -44,7 +44,7 @@
 	<image 
 		id="katze2"
 		xlink:href="katze.svg"
-		x="450"
+		x="430"
 		y="230"
 		opacity="0"
 	>
@@ -125,6 +125,7 @@
 	<rect x="800" y="228" width="160" height="340" style="fill:rgb(0,0,0);stroke-width:8;stroke:rgb(105,105,105);" />
 
 	<g id="luefter">
+
 		<circle cx="880" cy="510" r="45" style="fill:dimgrey;stroke-width:5; stroke:rgb(145,145,145);"/>
 		<circle cx="880" cy="510" r="10" style="fill:rgb(0,0,0) ;stroke-width:0; stroke:black" />
 		
@@ -134,13 +135,13 @@
 	</g>
 
 
-	<use x="0" y="0" transform="rotate(90,878,510)" xlink:href="#blaetter" />
-	<use x="0" y="0" transform="rotate(45,878,510)" xlink:href="#blaetter" />
-	<use x="0" y="0" transform="rotate(135,878,510)" xlink:href="#blaetter" />
-	<use x="0" y="0" transform="rotate(180,878,510)" xlink:href="#blaetter" />
-	<use x="0" y="0" transform="rotate(225,878,510)" xlink:href="#blaetter" />
-	<use x="0" y="0" transform="rotate(270,878,510)" xlink:href="#blaetter" />
-	<use x="0" y="0" transform="rotate(315,878,510)" xlink:href="#blaetter" />
+	<use x="0" y="0" transform="rotate(90,880,510)" xlink:href="#blaetter" />
+	<use x="0" y="0" transform="rotate(45,880,510)" xlink:href="#blaetter" />
+	<use x="0" y="0" transform="rotate(135,880,510)" xlink:href="#blaetter" />
+	<use x="0" y="0" transform="rotate(180,880,510)" xlink:href="#blaetter" />
+	<use x="0" y="0" transform="rotate(225,880,510)" xlink:href="#blaetter" />
+	<use x="0" y="0" transform="rotate(270,880,510)" xlink:href="#blaetter" />
+	<use x="0" y="0" transform="rotate(315,880,510)" xlink:href="#blaetter" />
 
 	<!-- Rotierende Lüfter (langsam) -->
 	<animateTransform 
@@ -150,8 +151,8 @@
 		attributeName="transform" 
 		attributeType="XML" 
 		type="rotate" 
-		from="90 878 510" 
-		to="450 878 510">
+		from="90 880 510" 
+		to="450 880 510">
 	</animateTransform>
 
 	<!-- Rotiernde Lüfter (schnell) -->
@@ -163,13 +164,13 @@
 		attributeName="transform" 
 		attributeType="XML" 
 		type="rotate" 
-		from="450 878 510" 
-		to="22050 878 510">
+		from="450 880 510" 
+		to="22050 880 510">
 	</animateTransform>
 
 	<!-- Lüfter RGB -->
 	<animate 
-		xlink:href="#blatt" 
+		xlink:href="#blaetter" 
 		begin="3s" 
 		dur="4s" 
 		repeatCount="indefinite" 
