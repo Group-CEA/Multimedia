@@ -2,11 +2,6 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" xmlns:xlink="http://www.w3.org/1999/xlink">
 
-	<!-- Was wir noch machen müssen:
-	- Blätter sind falsch positioniert
-	- Blätter gehen in das Zentrum vom Punkt was sie aber nicht sollten 
-	- Die Katze ist nicht perfekt in der Mitte positioniert und der Text ist abgeschnitten -->
-
  <rect x="0" y="0" width="1000" height="400" style="fill:rgb(240,247,255);stroke-width:0;stroke:rgb(0,0,0);" />
  <rect x="0" y="400" width="1000" height="300" style="fill:rgb(206,133,64);stroke-width:0;stroke:rgb(0,0,0);" />
  
@@ -126,7 +121,7 @@
 
 	<g id="luefter">
 
-		<circle cx="880" cy="510" r="45" style="fill:dimgrey;stroke-width:5; stroke:rgb(145,145,145);"/>
+		<circle id="luefter-hintergrund" cx="880" cy="510" r="45" style="fill:dimgrey;stroke-width:5; stroke:rgb(145,145,145);"/>
 		<circle cx="880" cy="510" r="10" style="fill:rgb(0,0,0) ;stroke-width:0; stroke:black" />
 		
 
@@ -170,7 +165,7 @@
 
 	<!-- Lüfter RGB -->
 	<animate 
-		xlink:href="#blaetter" 
+		xlink:href="#luefter-hintergrund" 
 		begin="3s" 
 		dur="4s" 
 		repeatCount="indefinite" 
