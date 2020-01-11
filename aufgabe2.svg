@@ -118,7 +118,7 @@
 	<line x1="0" y1="0" x2="0" y2="-72"  style="stroke:rgb(255,215,0);stroke-width:2">
 	<animateTransform repeatCount="indefinite"
 		attributeName="transform" type="rotate"
-		from="0" to="360" begin="0" dur="60s" />
+		from="0" to="360" begin="0" dur="60" />
 	</line>
 	</g>
 
@@ -134,7 +134,7 @@
 	<line x1="0" y1="0" x2="0" y2="-50" style="stroke:rgb(255,215,0);stroke-width:4">
 	<animateTransform repeatCount="indefinite"
 		attributeName="transform" type="rotate"
-		from="345" to="705" begin="0" dur="216000" />
+		from="345" to="705" begin="0" dur="43200" />
 	</line>
 	</g>
 
