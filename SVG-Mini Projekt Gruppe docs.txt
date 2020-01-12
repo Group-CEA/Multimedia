@@ -1,0 +1,10 @@
+Gruppenarbeit für die SVG-mini projekt 
+
+Christian Miller(80408)
+Emil Hopf(80414)
+Ali Karami(80018)
+
+Aufgabe 3 (Tag und Nacht im Büro)
+
+wir wollten einen Arbeitstag im Büro bezeichnen. Vom Sonnenuntergang bis zum 
+Sonnenaufgang - der Verlauf des Tages und der Nacht.
